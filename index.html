@@ -36,14 +36,14 @@
             });
 
             // documnets link
-            AFRAME.registerComponent('webpoint-handler', {
+            AFRAME.registerComponent('mappoint-handler', {
             
             init: function() {
                 //console.log("I was triggered");
-                const marker1 = document.querySelector("#marker1");
+                const marker4 = document.querySelector("#marker4");
                 const imgWeb = document.querySelector("#img-web");
                 
-                marker1.addEventListener('click', function(ev, target) {
+                marker4.addEventListener('click', function(ev, target) {
                     const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
                 if (imgWeb && intersectedElement === imgWeb) {
                     console.log("Clicked");
@@ -52,6 +52,8 @@
                 });
             }
             });
+           
+        
            
     
              // github login
