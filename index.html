@@ -35,11 +35,6 @@
                 }
             });
 
-
-
-
-
-
             // documnets link
             AFRAME.registerComponent('webpoint-handler', {
             
@@ -59,13 +54,7 @@
             });
            
     
-
-
-        
-           
-           
-
-            // github login
+             // github login
             AFRAME.registerComponent('githubpoint-handler', {
             
             init: function() {
@@ -153,7 +142,7 @@
            
             <!-- git Location Marker -->
 
-            <a-marker id="marker2" type='pattern' url='markers/web-pattern-marker.patt' emitevents="true" cursor="rayOrigin: mouse" githubpoint-handler>
+            <a-marker id="marker2" type='pattern' url='markers/github-pattern-marker.patt' emitevents="true" cursor="rayOrigin: mouse" githubpoint-handler>
                 <!--<a-box position='0 0 0' material='color: red;'></a-box>-->
                 <a-plane id="img-github" scale = "2 1" position='0 0.1 0' rotation="-90 0 0" material='transparent:true;src:#github-point'></a-plane>
                 <!--<a-entity text="font: https://cdn.aframe.io/fonts/mozillavr.fnt; value: Fun Moments"></a-entity>-->
@@ -174,7 +163,7 @@
                 <!--<a-box position='0 0 0' material='color: red;'></a-box>-->
                 <a-plane id="img-web" scale = "2 2" position='0 0.1 0' rotation="-90 0 0" material='transparent:true;src:#web-point'></a-plane>
                 <!--<a-entity text="font: https://cdn.aframe.io/fonts/mozillavr.fnt; value: Fun Moments"></a-entity>-->
-            </a-marker>  
+            </a-marker>   
             
             
             
